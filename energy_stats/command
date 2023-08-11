@@ -1,0 +1,1 @@
+python ./calculate_energy.py -v -table_file=energy_model.txt -counter_file=../xxx -out_file=./out

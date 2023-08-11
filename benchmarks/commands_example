@@ -1,0 +1,7 @@
+python run_benchmarks.py "ssd_mobilenets" "../simulation_files/sigma_128mses_64_bw.cfg" "object_detection/ssd-mobilenets/tiles/no_acc_buffer/128_mses" "0.0" "object_detection/ssd-mobilenets/result"
+
+python run_benchmarks.py "ssd_resnets" "../simulation_files/sigma_128mses_64_bw.cfg" "object_detection/ssd-resnets/tiles/no_acc_buffer/128_mses" "0.0" "object_detection/ssd-resnets/result"
+
+python run_benchmarks.py "alexnet" "../simulation_files/sigma_128mses_64_bw.cfg" "" "0.90" "image_classification/alexnet/result" 
+
+python run_benchmarks.py "mobilenets" "../simulation_files/sigma_128mses_64_bw.cfg" "" "0.90" "image_classification/mobilenetsv2/result" 
